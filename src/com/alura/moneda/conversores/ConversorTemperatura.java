@@ -64,6 +64,7 @@ public class ConversorTemperatura {
 	}
 	
 	private void mostrarValorFnal(Double valorFinal, String tipo) {
+		DecimalFormat formato = new DecimalFormat("#.00");
 		JOptionPane.showMessageDialog(null, "La conversión es " +valorFinal.toString()+"° "+tipo);
 	}
 }

@@ -75,6 +75,7 @@ public class ConversorMoneda {
 	}
 	
 	private void mostrarValorFnal(Double valorFinal, String tipo) {
+		DecimalFormat formato = new DecimalFormat("#.00");
 		JOptionPane.showMessageDialog(null, "Tienes " +valorFinal.toString()+" "+tipo);
 	}
 }
